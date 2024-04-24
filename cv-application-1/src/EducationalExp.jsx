@@ -9,9 +9,9 @@ export default function Educational() {
       <label>
         <span>Title of Study:</span>
         <select>
-          <option>Accounting</option>
-          <option>Computer Science</option>
-          <option>Data Analytics</option>
+          <option value="accounting">Accounting</option>
+          <option value="computer-science">Computer Science</option>
+          <option value="data-analytics">Data Analytics</option>
         </select>
       </label>
       <label>
