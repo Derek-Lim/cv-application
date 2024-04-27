@@ -1,0 +1,57 @@
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px;
+  width: 80%;
+}
+
+span {
+  padding-right: 5px;
+}
+
+button {
+  width: 35%
+}
+
+.cv {
+  width: 100%;
+  padding: 30px;
+}
+
+.general-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.education,
+.professional-experience {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.education h2,
+.professional-experience h2 {
+  align-self: center;
+  background-color: grey;
+  padding: 0 30px;
+}
+
+.education-details,
+.professional-experience-details {
+  display: flex;
+  justify-content: space-around;
+}
